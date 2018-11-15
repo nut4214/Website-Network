@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 HI
 HiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHiHi
+=======
+HI HII
+>>>>>>> 8106b5fab9c630aee02f1c646b51aa6dee9e48e4
