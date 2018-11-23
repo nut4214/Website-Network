@@ -14,8 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+/*Route::get('/video', function () {
+    return view('video');
+});*/
+
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/picture', 'HomeController@index')->name('home');
+Route::get('/picture', 'PictureController@index')->name('picture');
+Route::get('/video', 'VideoController@index')->name('video');
