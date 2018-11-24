@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="{{url('/test')}}">Text</a>
+                    <a href="{{url('/text')}}">Text</a>
                     <a href="{{url('/video')}}">Video</a>
                     <a href="{{url('/picture')}}">Picture</a>
 
