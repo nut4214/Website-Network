@@ -1,4 +1,23 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
+=======
+@extends('layouts.app')
+
+@section('content')
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">Dashboard</div>
+
+                <div class="card-body">
+                    @if (session('status'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('status') }}
+                        </div>
+                    @endif
+<html>
+>>>>>>> d7587276b4a8948d11c562a9344c53cb5505986e
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
@@ -55,4 +74,14 @@
 		
 	</script>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+</div>
+</div>
+</div>
+</div>
+</div>
+@endsection
+>>>>>>> d7587276b4a8948d11c562a9344c53cb5505986e

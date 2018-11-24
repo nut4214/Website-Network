@@ -85,9 +85,9 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Text</a>
-                    <a href="https://laracasts.com">Video</a>
-                    <a href="https://laravel-news.com">Picture</a>
+                    <a href="{{url('/test')}}">Text</a>
+                    <a href="{{url('/video')}}">Video</a>
+                    <a href="{{url('/picture')}}">Picture</a>
 
                 </div>
             </div>
