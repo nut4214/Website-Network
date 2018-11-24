@@ -14,9 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
-/*Route::get('/video', function () {
-    return view('video');
-});*/
 
 
 Auth::routes();
@@ -24,3 +21,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/picture', 'PictureController@index')->name('picture');
 Route::get('/video', 'VideoController@index')->name('video');
+Route::get('/text', 'TextController@index')->name('Text');
